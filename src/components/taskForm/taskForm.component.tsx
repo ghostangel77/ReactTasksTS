@@ -22,8 +22,8 @@ export function TaskForm() {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-slate-800">
-      <form onSubmit={handleSubmit} className="p-10 mb-4">
+    <div className="max-w-md mx-auto bg-slate-600 rounded-b-xl">
+      <form onSubmit={handleSubmit} className="p-10 mb-6">
         <h1 className="text-2xl font-bold capitalize mb-3 text-white">
           Create task
         </h1>
