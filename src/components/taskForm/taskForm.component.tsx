@@ -12,6 +12,7 @@ export function TaskForm() {
     e.preventDefault();
 
     const task: ITask = {
+      id: 0,
       title,
       description,
     };
